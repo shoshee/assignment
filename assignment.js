@@ -1,8 +1,8 @@
-
+// https://github.com/shoshee/assignment
 // code of converting kilometer to meter
 function kilometerToMeter(kiloMeterUnit) {
     if (kiloMeterUnit > 0) {
-        var meterUnit = kiloMeterUnit / 1000;
+        var meterUnit = kiloMeterUnit*1000;
         return meterUnit;
 
 
